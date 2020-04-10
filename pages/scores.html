@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>High Scores</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/scores.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+           <h1 id="finialScore">0</h1>
+           <form>
+               <input 
+               type="text" 
+               name="username" 
+               id="username" 
+               placeholder="Username"
+               />
+               <button 
+               type="submit" 
+               id="saveScoreBtn" 
+               class="btn" 
+                disabled
+               >
+                Save
+               </button>
+           </form>
+           <a class="btn" href="index.html">Go Home</a>
+           <a class="btn" href="play.html">Play Again</a>
+        </div>
+    </div>
+    <script src="../scripts/score.js"></script>
+</body>
+</html>
